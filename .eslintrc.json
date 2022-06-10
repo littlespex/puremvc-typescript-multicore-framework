@@ -1,0 +1,47 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"@typescript-eslint/no-explicit-any": "off",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"comma-dangle": [
+			"error",
+			"always-multiline"
+		],
+		"brace-style": [
+			"error",
+			"stroustrup",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"quotes": [
+			"error",
+			"single",
+			{
+				"allowTemplateLiterals": true,
+				"avoidEscape": true
+			}
+		]
+	},
+	"ignorePatterns": [
+		"bin"
+	]
+}

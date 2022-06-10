@@ -1,4 +1,2 @@
-/.idea
-/*.sublime-project
-/*.sublime-workspace
-/build/user.properties
+node_modules
+bin

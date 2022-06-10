@@ -5,7 +5,7 @@ PureMVC is a lightweight framework for creating applications based upon the clas
 * [Live Unit Test Runner](http://puremvc.org/pages/demos/TS/PureMVC_TS_MultiCore_UnitTests/)
 
 ## Status
-Production - [Version 1.1](https://github.com/PureMVC/puremvc-typescript-multicore-framework/blob/master/VERSION)
+Production - [Version 1.2](https://github.com/PureMVC/puremvc-typescript-multicore-framework/blob/master/CHANGELOG.md)
 
 ## Platforms / Technologies
 * [TypeScript](http://www.typescriptlang.org/)
@@ -19,19 +19,11 @@ Production - [Version 1.1](https://github.com/PureMVC/puremvc-typescript-multico
 
 As this port depends on the TypeScript language you may want to start by reading [TypeScript getting started guide](http://www.typescriptlang.org/).
 
-Unit Test can be run live in the browser using included HTML file [test.html](https://github.com/PureMVC/puremvc-typescript-multicore-framework/blob/master/test-minified.html)
-
 ## Build
 
-To build the project you'll need to download and install :
-* [TypeScript compiler](http://www.typescriptlang.org/#Download)
-* [Ant](http://ant.apache.org/)
-* [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html/) (Ant need a JDK not a JRE, also don't forget to change environment var JAVA_HOME to the JDK path).
-
-1. Rename the file [user.properties.sample](https://github.com/PureMVC/puremvc-typescript-multicore-framework/blob/master/user.properties.sample) to **user.properties**
-2. Edit the file and replace **MY_TYPESCRIPT_COMPILER_PATH** by the real TypeScript compiler full
-system path. e.g. on windows: <code>typescript.compiler.path = C:/Documents and Settings/{USER NAME HERE}/Application Data/npm/tsc.cmd
-3. Use your favorite editor to run Ant or simply type <code>ant puremvc-typescript-multicore-framework/build
+To build the project you'll need to:
+- Run `npm install`
+- Run `npm run build`
 
 ## License
 * PureMVC TypeScript Multicore Framework - Copyright © 2014 Frederic Saunier

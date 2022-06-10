@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
+		"isolatedModules": true,
+		"lib": [
+			"DOM",
+			"ES2016"
+		],
+		"module": "ESNEXT",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"outDir": "bin",
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"target": "es6"
+	},
+	"include": [
+		"src"
+	]
+}
